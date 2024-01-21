@@ -1,11 +1,22 @@
 body {
   text-align: center;
+  background-color: bisque;
   /* display: flex; */
   /* justify-content: center; */
 }
 div {
   height: 100px;
   width: 500px;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: auto;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+button {
+  border-radius: 25%;
+  color: black;
+  background-color: gold;
+  height: 50px;
 }
